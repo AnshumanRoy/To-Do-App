@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Todo from './Todo';
-import { v4 as uuid } from 'uuid';
 
 const TodoList = ({ tasks, handleDelete }) => {
 
